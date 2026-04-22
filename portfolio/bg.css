@@ -1,0 +1,20 @@
+main .inicial{ 
+    width: 100%;
+    animation: gradient 7s ease infinite;
+    background: linear-gradient(-45deg, rgba(81, 12, 145, 0.842), rgba(0, 0, 0, 0.733), rgb(82, 3, 119)) no-repeat;
+    background-size: 300% 300%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 10% 50%;
+    }
+}

@@ -1,0 +1,83 @@
+
+#inicio {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 300px;
+    background-image: linear-gradient(to bottom, #340350, #400064, #000000);
+    
+}
+
+
+.titulo-inicio h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: white;
+}
+
+span {
+    opacity: 0;
+    transition: all 0,4s ease;
+}
+
+span.fade {
+    opacity: 1;
+}
+
+#inicio .foto-minha {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+#inicio img {
+    border-radius: 50%;
+    box-shadow: black 2px 2px 30px;
+    width: 350px;
+    height: 350px;
+}
+
+.text-inicio {
+    font-family: sans-serif;
+    color: #AD20FF;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.text-inicio h2 {
+    font-size: 15px;
+    color: white;
+}
+
+#sobre-mim {
+    padding: 250px;
+    border-top: white 1px solid;
+    background-image: linear-gradient(to bottom, #000000d5, #400064, #000000d5);
+}
+
+#sobre-mim h1{
+    color: #AD20FF;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+#sobre-mim h2 {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 2px auto;
+    width:70%;
+    background-color: rgba(0, 0, 0, 0.199);
+    text-align: center;
+    color: white;
+    border: 1px solid ;
+    box-shadow: 10px 10px 30px black;
+}
+
+.txt-sobmim h2:hover {
+    color: #AD20FF;
+    transition: 0.8s;
+    transform: matrix(1.2, 0, 0, 1.1, 0, 0);
+}
+

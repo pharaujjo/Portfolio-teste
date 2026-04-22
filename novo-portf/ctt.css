@@ -1,0 +1,34 @@
+
+.foto-contato {
+    display: flex;
+    justify-content: center;
+
+}
+
+.foto-contato img {
+    height: 200px;
+    width: 200px;
+}
+
+#contato {
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 50px;
+    padding-top: 30px;
+}
+
+#contato h1 {
+    color: blueviolet;
+    margin-top: 2px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#contato a {
+    color: white;
+    text-decoration: none;
+}
+
+#contato h2 {
+    color: white;
+    text-align: center;
+} 
